@@ -1,101 +1,112 @@
-Privacy Policy
-This privacy policy applies to the MobAtherapy 2.0 app for mobile devices, together with any related services operated by Alexey Alykov (collectively, the "Application"). Alexey Alykov is hereby referred to as the "Service Provider".
+# Политика конфиденциальности приложения «MobAtherapy 2.0»
 
+**Дата вступления в силу:** 21.10.2026
+**Версия документа:** 1.0
 
-Information Collection and Use
-The Application collects information when you download and use it. This information may include information such as
+## 1. Кто мы
 
-Your device's Internet Protocol address
-The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
-The time spent on the Application
-your mobile operating system you use
+Приложение «MobAtherapy 2.0» (далее — «Приложение») предназначено для пациентов, принимающих антикоагулянтную терапию, и для их лечащих врачей. Приложение помогает вовремя принимать препараты, вести дневник самочувствия, проходить опросники о возможных осложнениях и переписываться с врачом.
 
-Cookies and tracking technologies
-The Application or its third-party SDKs may use cookies, SDKs, pixels, and similar technologies to support functionality, analytics, or service delivery. Where required by applicable law, the Service Provider will obtain consent before using non-essential tracking technologies.
+**Оператор персональных данных:** Алексей Алыков, г. Томск (далее — «Оператор»).
+**Контакт по вопросам данных:** support_mobatherapy@mail.ru
 
+Приложение **не заменяет** консультацию врача и не ставит диагноз. Справочные материалы и алгоритмы носят информационный характер.
 
-Your Rights
-You may request access to, correction of, or deletion of your personal data held by the Service Provider. To exercise these rights, or to withdraw consent where processing is based on consent, contact the Service Provider at aalykov@gmail.com.
+## 2. Какие данные мы собираем
 
+| Категория | Что именно | Зачем |
+|---|---|---|
+| Учётная запись | Email, пароль (хранится у поставщика аутентификации в защищённом виде, нам недоступен), идентификатор пользователя, имя пользователя | Вход в приложение, восстановление пароля, связь данных с вами |
+| Профиль | ФИО, дата рождения, пол, телефон, город, медицинская организация, диагноз (необязательные поля — по вашему желанию), отметка согласия на обработку данных, роль (пациент / врач) | Идентификация пациента врачом, доступ к консультациям |
+| Приём препаратов | Названия препаратов, дозировка, форма, расписание, длительность, отметки «принято / пропущено / отложено» и их время | Напоминания, статистика приверженности, отчёты для врача |
+| Дневник самочувствия | Общее состояние, пульс, давление, МНО, симптомы, свободные заметки | Динамика состояния для вас и вашего врача |
+| Опросники | Ответы на опросники о тромбоэмболических и геморрагических осложнениях, плановые опросы | Оценка безопасности лечения врачом |
+| Консультации | Темы обращений, текст сообщений, **фотографии**, которые вы отправляете в чат, время сообщений, отметки прочтения | Связь с врачом |
+| Уведомления | Токен устройства для доставки push-уведомлений, время последней связи устройства с сервером | Напоминания от врача, сообщения, новости; контроль того, что уведомления доходят |
+| Сведения об устройстве | Производитель и модель, версия Android, версия приложения | Диагностика ошибок, мониторинг связи |
+| Журналы сбоев | Отчёты о сбоях приложения (стек вызова, модель устройства, версия ОС) | Исправление ошибок |
+| Журнал событий на устройстве | Служебные записи о работе приложения (хранятся только на вашем телефоне, пока вы их не очистите) | Техническая поддержка |
 
-Your California privacy rights (CCPA/CPRA)
-If you are a California resident, you have the right to know what personal information is collected, the right to delete personal information, the right to opt out of the sale or sharing of personal information, and the right to non-discrimination for exercising these rights. To exercise your CCPA/CPRA rights, contact the Service Provider at aalykov@gmail.com.
+Мы **не собираем** геолокацию, контакты, содержимое других приложений, рекламные идентификаторы. В приложении **нет рекламы**.
 
-The Service Provider may use the information you provide to send important information, required notices, and, where permitted by law, marketing communications.
+Фотографии из чата делаются системной камерой или выбираются из галереи вашего телефона. Приложение получает только тот снимок, который вы выбрали, и не имеет доступа к остальной галерее.
 
+## 3. Цели и основания обработки
 
-For a better experience while using the Application, the Service Provider may require you to provide certain personally identifiable information, including but not limited to email, age. The information the Service Provider requests will be retained and used as described in this privacy policy.
+Данные обрабатываются, чтобы:
 
+1. Обеспечить работу приложения: напоминания о приёме, дневник, опросники, консультации.
+2. Позволить вашему лечащему врачу видеть данные, необходимые для наблюдения за лечением.
+3. Отправлять уведомления: напоминания, ответы врача, новости клиники.
+4. Находить и исправлять ошибки.
 
-Third Party Access
-Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+Основание обработки — **ваше согласие** (отмечается в профиле приложения) и необходимость исполнения соглашения об использовании приложения. Данные о здоровье — специальная категория персональных данных; согласие на их обработку даётся отдельно и может быть отозвано (раздел 8).
 
+## 4. Кто видит ваши данные
 
-International Data Transfers
-The Service Provider or its third-party service providers may transfer personal data to countries outside your country of residence, including outside the European Economic Area (EEA). Where applicable law requires safeguards for international transfers, the Service Provider will use appropriate mechanisms.
+- **Вы** — все свои данные.
+- **Врачи, зарегистрированные в приложении.** Врач может просматривать профиль, планы приёма и статистику, дневник и опросники пациентов, а также переписку, в которой он участвует. В текущей версии любой врач может открыть карточку любого пациента; закрепление пациента за врачом определяет, кто отвечает на обращения.
+- **Администраторы** проекта — для поддержки пользователей и обслуживания системы.
+- **Поставщики инфраструктуры** (раздел 6) — только в объёме, необходимом для хранения и доставки данных. Они не используют ваши данные в собственных целях, кроме случаев, описанных в их политиках.
 
-Standard Contractual Clauses (SCCs) approved by the European Commission
-Adequacy decisions or other legally recognized transfer mechanisms
-Your consent, where required and legally permitted
-Data protection laws in other countries may differ from those in your jurisdiction. Where required by law, the Service Provider will apply appropriate safeguards and obtain any consent required for the transfer.
+Мы не продаём и не передаём данные третьим лицам для рекламы или маркетинга.
 
+## 5. Что хранится на вашем телефоне
 
-Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
+Планы приёма, журнал приёмов, записи дневника, опросники и служебный журнал событий хранятся на телефоне в защищённой области приложения и синхронизируются с сервером, когда есть интернет. Резервное копирование Android может сохранять данные приложения в вашем аккаунте Google, если вы включили эту функцию в настройках телефона.
 
-Google Play Services
-Google Analytics for Firebase
-Firebase Crashlytics
+Приложению нужны разрешения: уведомления; точные будильники (чтобы напоминание о приёме пришло вовремя); отключение оптимизации батареи (чтобы телефон не останавливал напоминания); интернет. Камера для фото в чате используется через системное приложение камеры.
 
-The Service Provider may disclose User Provided and Automatically Collected Information:
+## 6. Где хранятся данные и кто их обрабатывает
 
-as required by law, such as to comply with a subpoena, or similar legal process;
-when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
-with their trusted services providers who work on their behalf, do not have an independent use of the information the Service Provider discloses to them, and have agreed to adhere to the rules set forth in this privacy statement.
+Приложение использует сервис **Google Firebase** (Google LLC / Google Ireland Limited):
 
-Opt-Out Rights
-You can stop further collection of information from your mobile device by uninstalling the Application. Uninstalling will stop the Application from collecting data from your device, but it does not automatically delete information that has already been transmitted to the Service Provider or to third parties.
+| Сервис | Что хранит | Расположение |
+|---|---|---|
+| Firebase Authentication | Email, идентификатор, хэш пароля | серверы Google |
+| Cloud Firestore | Профиль, планы, приёмы, дневник, опросники, консультации, новости | мультирегион **Европа (eur3)** |
+| Cloud Storage | Фотографии из консультаций | регион **США (US-EAST1)** |
+| Realtime Database | Токены устройств и время последней связи | регион **США (us-central1)** |
+| Cloud Functions | Отправка уведомлений | **Европа (europe-west1)** |
+| Firebase Cloud Messaging | Доставка push-уведомлений | серверы Google |
+| Firebase Crashlytics | Отчёты о сбоях | серверы Google |
 
-To request deletion of your personal data, to withdraw consent, or to exercise any of your rights, contact the Service Provider at aalykov@gmail.com.
+Данные передаются по защищённому каналу (HTTPS/TLS) и хранятся у Google в зашифрованном виде.
 
+**Передача данных за пределы Российской Федерации.** Серверы Google находятся в Европе и США. Используя приложение, вы соглашаетесь на такую передачу.
 
-Data Retention Policy
-The Service Provider retains personal data based on its necessity for the stated purposes:
+## 7. Как долго мы храним данные
 
-User Provided Data: Retained for the duration of your use of the Application plus 12 months thereafter, unless longer retention is required by law
-Automatically Collected Data: Retained for up to 24 months from collection, unless longer retention is required for legal compliance
-Aggregated and Anonymized Data: Retained indefinitely as it no longer identifies you
-Data required for legal compliance: Retained as long as required by applicable law
-You may request deletion of your personal data, subject to any legal obligation to retain it. If you want the Service Provider to delete User Provided Data submitted through the Application, please contact them at aalykov@gmail.com. Please note that some User Provided Data may be required for the Application to function properly.
+Данные хранятся, пока существует ваш аккаунт. После удаления аккаунта (раздел 8) мы удаляем ваши данные из приложения и с сервера: профиль, планы и историю приёмов, дневник, опросники, переписку и фотографии, токены устройств и учётную запись. Резервные копии у поставщика инфраструктуры и журналы сбоев в обезличенном виде могут сохраняться до очередного цикла их удаления.
 
+## 8. Ваши права и удаление данных
 
-Children
-The Application is not intended for children under 16 years of age, or such higher age as required by applicable law. The Service Provider does not knowingly solicit data from children or market the Application to them.
+Вы вправе: получить информацию о ваших данных; потребовать исправить или удалить их; отозвать согласие на обработку; ограничить обработку; обратиться с жалобой в Роскомнадзор.
 
+**Как удалить аккаунт и данные**
+- В приложении: *«Профиль» → «Удалить аккаунт и все данные»*, подтверждение паролем. Для пациентов. Аккаунты врачей и администраторов удаляются по запросу на email ниже.
+- По запросу: напишите на **support_mobatherapy@mail.ru** с адреса, указанного при регистрации, с темой «Удаление аккаунта». Мы удалим аккаунт и данные и подтвердим это письмом в течение 30 дней.
+- Эта страница служит и страницей запроса удаления данных: достаточно письма на указанный адрес.
 
-Where parental or guardian consent is required under applicable law, the Application is not intended for use without that consent. The Service Provider does not knowingly collect personally identifiable information from children under 16 years of age in violation of applicable law. In the event the Service Provider discovers that a child has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided the Service Provider with personal information, please contact the Service Provider (aalykov@gmail.com) so that they will be able to take the necessary actions.
+Чтобы отозвать согласие, напишите на тот же адрес. Отзыв согласия означает, что пользоваться приложением дальше нельзя, а данные будут удалены.
 
+## 9. Безопасность
 
-Security
-The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+Мы применяем разумные меры защиты: доступ только после входа в аккаунт, правила доступа к данным на сервере (пациент видит только свои данные, врачи — в рамках раздела 4), шифрование при передаче. Ни один способ передачи и хранения данных не гарантирует абсолютной безопасности. Берегите пароль и не передавайте его другим людям.
 
+## 10. Дети
 
-Data Breach Notification
-If a data breach occurs that affects your personal data, the Service Provider will notify you in accordance with applicable legal requirements, including, where required, providing information about the nature of the breach and the steps being taken to address it.
+Приложение предназначено для лиц **старше 18 лет**. Мы сознательно не собираем данные детей. Если вам стало известно, что несовершеннолетний создал аккаунт, напишите нам — мы удалим данные.
 
+## 11. Ссылки на сторонние сайты
 
-Changes
-The Service Provider may update this Privacy Policy from time to time. The Service Provider will notify you of material changes by posting the updated Privacy Policy with an effective date. Where required by law, the Service Provider will seek your consent to material changes before they take effect.
+Приложение может содержать ссылки на сторонние сайты (например, отправку письма или звонок на номер скорой помощи 103 через телефон). Мы не отвечаем за их содержание и политику конфиденциальности.
 
+## 12. Изменения политики
 
-Previous versions of this Privacy Policy will be maintained and made available upon request by contacting the Service Provider at aalykov@gmail.com.
+Мы можем обновлять политику. Новая версия публикуется на этой странице с новой датой вступления в силу; о существенных изменениях мы сообщим в приложении.
 
+## 13. Контакты
 
-This privacy policy is effective as of 2026-10-21
-
-
-Your Consent
-Where processing is based on consent, you provide that consent by affirmatively opting in to the relevant feature or action. You may withdraw consent at any time without affecting processing carried out before withdrawal. Processing based on other lawful bases is carried out as described above.
-
-
-Contact Us
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at aalykov@gmail.com.
+По любым вопросам о данных: **support_mobatherapy@mail.ru**.
+Оператор: Алексей Алыков, г. Томск.
