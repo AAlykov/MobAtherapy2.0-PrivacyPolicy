@@ -1,6 +1,6 @@
 # Privacy Policy for MobAtherapy 2.0
 
-**Version:** 1.1 — draft for review, 6 November 2026. Not yet published. The effective date will be set when the final version is published.
+**Version:** 1.2. **Last updated:** 6 November 2026.
 
 ## 1. Who is responsible for your information
 
@@ -23,7 +23,7 @@ MobAtherapy 2.0 helps patients record medication intake and symptoms, complete q
 | Consent | Consent status, acceptance time, document identifier, version and checksum | Record which separate in-app consent document was accepted. |
 | Medication | Medicine names, dosage, form, schedule, course dates, intake or missed-intake status, actual intake time and notes | Reminders, intake history, adherence statistics and reports. |
 | Health diary and questionnaires | General condition, pulse, blood pressure, INR where entered, symptoms, bleeding and thromboembolic complication responses, event dates and free-text notes | Record changes over time and provide information to healthcare staff. |
-| Consultations | Consultation subject, messages, photographs you send, participants, timestamps and read status | Patient–clinician communication. |
+| Consultations | Consultation subject, messages, photographs you send, participants, timestamps and read status | Patient-clinician communication. |
 | Notifications and device status | Notification tokens, account identifier and email in device-status records, device model/manufacturer, Android and app versions, last-contact time, notification titles/text, recipients and delivery results | Deliver notifications, show whether a device has contacted the service and investigate delivery problems. |
 | Diagnostics and support | Crash information, installation identifiers, device/app information, technical logs, and correspondence you send to support | Investigate failures, maintain the application and handle requests. Infrastructure providers may also process connection information such as IP addresses. |
 
@@ -35,7 +35,7 @@ The application has no advertising and does not sell user information for advert
 
 Before registration, the application asks you to accept a separate personal data processing consent. You can read that document through “More about consent” on the registration screen and in your profile, including without an internet connection.
 
-That consent and this Privacy Policy are separate documents. This policy describes information handling; opening it or viewing a consent document does not itself select the consent checkbox. The current in-app consent identifies the controller and provides its own withdrawal procedure, including the contact alykov_ab@mail.ru. You may also send questions or requests to the privacy contact above.
+That consent and this Privacy Policy are separate documents. This policy describes information handling; opening it or viewing a consent document does not itself select the consent checkbox. The separate consent identifies the controller and describes withdrawal of consent. Send privacy questions, deletion requests and requests for assistance with withdrawal to [mobatherapy@mail.ru](mailto:mobatherapy@mail.ru).
 
 ## 4. Access and recipients
 
@@ -59,17 +59,17 @@ For the provider's service-specific handling information, see [Privacy and Secur
 
 Medication records, diary entries, questionnaire responses and some settings are stored in the application's private storage. Records synchronise with Firebase when a connection is available. Local offline records can include changes that have not yet reached the server.
 
-For the version covered by this draft, Android cloud backup and direct phone-to-phone transfer are configured to include only the selected appearance theme. The local database, login state, technical files and installation-related settings are excluded. On a new installation, sign in and download synchronised records again. Changes not sent to Firebase before the application is removed or the phone is lost cannot be recovered through this process. These settings do not remove older Android backups made by previous versions.
+Android cloud backup and direct phone-to-phone transfer are configured to include only the selected appearance theme. The local database, login state, technical files and installation-related settings are excluded. On a new installation, sign in and download synchronised records again. Changes not sent to Firebase before the application is removed or the phone is lost cannot be recovered through this process. These settings do not remove older Android backups made by previous versions.
 
 Notifications and exact-alarm access support medication reminders. Android settings control the permissions you grant. Refusing notification permission can prevent reminders from appearing; it does not delete your existing records.
 
 ## 7. Retention
 
-Account information and patient records are retained while the account is in use, unless you request deletion or the controller is required to handle particular information differently. If a specific retention requirement applies to information held outside the application as part of medical care, the controller must explain it separately; this policy does not establish a blanket exemption from deleting app data.
+Account information and patient records are retained while the account is in use, unless you request deletion. Records held separately by a healthcare organisation as part of medical care may be subject to its own retention requirements; the controller will explain any such requirement. This does not create a general exemption from deleting data held in the application.
 
-**Agreed rule for processed notification requests:** delete or irreversibly de-identify them 30 days after processing. This rule applies to processed requests, not unprocessed requests awaiting delivery or investigation. The automatic cleanup implementing this rule has not yet been added; it must be implemented before this draft is published as an effective policy.
+Notification-delivery records and technical logs are used to operate the service, investigate delivery problems, maintain security and handle support requests. They can contain account and recipient identifiers, timestamps, notification text and delivery results. There is currently no scheduled automatic expiry for processed notification-delivery records. They may remain in the service history until removed during maintenance or in response to a verified deletion request. This policy does not promise automatic deletion after 30 days.
 
-Notification-delivery records and server logs can contain account/recipient identifiers, timestamps, notification text and results. The current account deletion function does not automatically clear all of those records. The controller's retention periods and deletion process for server logs and support correspondence must be finalised before publication; we do not describe these records as anonymous or as already erased.
+Some operational records are not automatically cleared by the in-app account deletion procedure. You can request removal of associated personal information at [mobatherapy@mail.ru](mailto:mobatherapy@mail.ru). The controller reviews these requests within 30 days and explains the result, including any specific information that must be retained and the reason for retaining it. Service logs and support correspondence are not described as anonymous merely because the main account has been deleted.
 
 Firebase Crashlytics retains crash reports and associated identifiers for 90 days before beginning removal from live and backup systems, according to the provider's published information. Deleting an application account does not by itself guarantee immediate deletion of every provider diagnostic record.
 
@@ -79,7 +79,7 @@ You can start the patient account deletion process in **Profile → Delete accou
 
 Doctor and administrator accounts use the email request route. You can also use email if you no longer have the application, cannot sign in, or cannot complete deletion in the application.
 
-Send a request to [mobatherapy@mail.ru](mailto:mobatherapy@mail.ru) with the subject **MobAtherapy 2.0 — account deletion**. Send it from your registered email when possible and identify the account to be deleted. If you cannot access that mailbox, explain the situation so that account ownership can be checked. Do not send your password or unnecessary medical documents.
+Send a request to [mobatherapy@mail.ru](mailto:mobatherapy@mail.ru) with the subject **MobAtherapy 2.0 - account deletion**. Send it from your registered email when possible and identify the account to be deleted. If you cannot access that mailbox, explain the situation so that account ownership can be checked. Do not send your password or unnecessary medical documents.
 
 Email deletion requests are handled within **30 days**. We will tell you if additional information is necessary to verify ownership and confirm the result. Requests concerning remaining service records or exported medical records must identify the information concerned; the controller will explain the scope of deletion and any applicable retention requirement.
 
@@ -99,6 +99,6 @@ The application is intended for adult patients and healthcare professionals, not
 
 ## 12. Updates and contact
 
-The published policy will identify its version and effective date. Material changes will be communicated through the application or the registered contact details when appropriate. The separate consent has its own version; changing this policy does not record acceptance of a different consent document.
+The version and last-update date appear at the beginning of this policy. Material changes will be communicated through the application or the registered contact details when appropriate. The separate consent has its own version; changing this policy does not record acceptance of a different consent document.
 
 **Controller:** Cardiology Research Institute, Tomsk NRMC. **Developer:** Alexey Alykov. **Contact:** [mobatherapy@mail.ru](mailto:mobatherapy@mail.ru).
