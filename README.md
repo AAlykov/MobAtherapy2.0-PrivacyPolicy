@@ -1,112 +1,104 @@
-# Политика конфиденциальности приложения «MobAtherapy 2.0»
+# Privacy Policy for MobAtherapy 2.0
 
-**Дата вступления в силу:** 21.10.2026
-**Версия документа:** 1.0
+**Version:** 1.1 — draft for review, 6 November 2026. Not yet published. The effective date will be set when the final version is published.
 
-## 1. Кто мы
+## 1. Who is responsible for your information
 
-Приложение «MobAtherapy 2.0» (далее — «Приложение») предназначено для пациентов, принимающих антикоагулянтную терапию, и для их лечащих врачей. Приложение помогает вовремя принимать препараты, вести дневник самочувствия, проходить опросники о возможных осложнениях и переписываться с врачом.
+This policy explains how information is handled when you use the MobAtherapy 2.0 Android application and when authorised healthcare staff use its companion DeskAtherapy application to work with patient records, consultations and reports.
 
-**Оператор персональных данных:** Алексей Алыков, г. Томск (далее — «Оператор»).
-**Контакт по вопросам данных:** support_mobatherapy@mail.ru
+**Data controller:** Cardiology Research Institute, Tomsk NRMC (НИИ кардиологии Томского НИМЦ).
 
-Приложение **не заменяет** консультацию врача и не ставит диагноз. Справочные материалы и алгоритмы носят информационный характер.
+**Developer:** Alexey Alykov (Алексей Алыков, Tomsk). This is the developer name used for Google Play.
 
-## 2. Какие данные мы собираем
+**Privacy and account deletion contact:** [mobatherapy@mail.ru](mailto:mobatherapy@mail.ru).
 
-| Категория | Что именно | Зачем |
+MobAtherapy 2.0 helps patients record medication intake and symptoms, complete questionnaires and communicate with healthcare staff. It does not make diagnoses or replace medical care.
+
+## 2. Information used by the application
+
+| Category | Information | Purpose |
 |---|---|---|
-| Учётная запись | Email, пароль (хранится у поставщика аутентификации в защищённом виде, нам недоступен), идентификатор пользователя, имя пользователя | Вход в приложение, восстановление пароля, связь данных с вами |
-| Профиль | ФИО, дата рождения, пол, телефон, город, медицинская организация, диагноз (необязательные поля — по вашему желанию), отметка согласия на обработку данных, роль (пациент / врач) | Идентификация пациента врачом, доступ к консультациям |
-| Приём препаратов | Названия препаратов, дозировка, форма, расписание, длительность, отметки «принято / пропущено / отложено» и их время | Напоминания, статистика приверженности, отчёты для врача |
-| Дневник самочувствия | Общее состояние, пульс, давление, МНО, симптомы, свободные заметки | Динамика состояния для вас и вашего врача |
-| Опросники | Ответы на опросники о тромбоэмболических и геморрагических осложнениях, плановые опросы | Оценка безопасности лечения врачом |
-| Консультации | Темы обращений, текст сообщений, **фотографии**, которые вы отправляете в чат, время сообщений, отметки прочтения | Связь с врачом |
-| Уведомления | Токен устройства для доставки push-уведомлений, время последней связи устройства с сервером | Напоминания от врача, сообщения, новости; контроль того, что уведомления доходят |
-| Сведения об устройстве | Производитель и модель, версия Android, версия приложения | Диагностика ошибок, мониторинг связи |
-| Журналы сбоев | Отчёты о сбоях приложения (стек вызова, модель устройства, версия ОС) | Исправление ошибок |
-| Журнал событий на устройстве | Служебные записи о работе приложения (хранятся только на вашем телефоне, пока вы их не очистите) | Техническая поддержка |
+| Account | Email address, username, account identifier and authentication information | Create and access your account, recover access and associate records with you. Password authentication is handled by Firebase Authentication; passwords are not stored in patient records. |
+| Profile | Full name, date of birth, sex, telephone number; optional city, medical organisation and diagnosis | Identify the patient and support healthcare communication. Full name, date of birth, sex and telephone number are required to complete the profile. |
+| Consent | Consent status, acceptance time, document identifier, version and checksum | Record which separate in-app consent document was accepted. |
+| Medication | Medicine names, dosage, form, schedule, course dates, intake or missed-intake status, actual intake time and notes | Reminders, intake history, adherence statistics and reports. |
+| Health diary and questionnaires | General condition, pulse, blood pressure, INR where entered, symptoms, bleeding and thromboembolic complication responses, event dates and free-text notes | Record changes over time and provide information to healthcare staff. |
+| Consultations | Consultation subject, messages, photographs you send, participants, timestamps and read status | Patient–clinician communication. |
+| Notifications and device status | Notification tokens, account identifier and email in device-status records, device model/manufacturer, Android and app versions, last-contact time, notification titles/text, recipients and delivery results | Deliver notifications, show whether a device has contacted the service and investigate delivery problems. |
+| Diagnostics and support | Crash information, installation identifiers, device/app information, technical logs, and correspondence you send to support | Investigate failures, maintain the application and handle requests. Infrastructure providers may also process connection information such as IP addresses. |
 
-Мы **не собираем** геолокацию, контакты, содержимое других приложений, рекламные идентификаторы. В приложении **нет рекламы**.
+Information is obtained from what you enter or send, your actions in the application, healthcare communication, and the technical services used by the application. Do not include information about other people unless it is necessary and you are authorised to provide it.
 
-Фотографии из чата делаются системной камерой или выбираются из галереи вашего телефона. Приложение получает только тот снимок, который вы выбрали, и не имеет доступа к остальной галерее.
+The application has no advertising and does not sell user information for advertising. It does not request permission to read contacts, obtain device location or record microphone audio. Photographs are taken or selected through Android and are sent when you choose to attach them. You do not need to send a photograph to use the diary or medication features.
 
-## 3. Цели и основания обработки
+## 3. Separate in-app consent
 
-Данные обрабатываются, чтобы:
+Before registration, the application asks you to accept a separate personal data processing consent. You can read that document through “More about consent” on the registration screen and in your profile, including without an internet connection.
 
-1. Обеспечить работу приложения: напоминания о приёме, дневник, опросники, консультации.
-2. Позволить вашему лечащему врачу видеть данные, необходимые для наблюдения за лечением.
-3. Отправлять уведомления: напоминания, ответы врача, новости клиники.
-4. Находить и исправлять ошибки.
+That consent and this Privacy Policy are separate documents. This policy describes information handling; opening it or viewing a consent document does not itself select the consent checkbox. The current in-app consent identifies the controller and provides its own withdrawal procedure, including the contact alykov_ab@mail.ru. You may also send questions or requests to the privacy contact above.
 
-Основание обработки — **ваше согласие** (отмечается в профиле приложения) и необходимость исполнения соглашения об использовании приложения. Данные о здоровье — специальная категория персональных данных; согласие на их обработку даётся отдельно и может быть отозвано (раздел 8).
+## 4. Access and recipients
 
-## 4. Кто видит ваши данные
+- You use your account to view and manage the records available to you in the application.
+- Registered doctors can view patient profiles, medication information, diaries and questionnaires. Patient cards are not restricted to the assigned doctor. Assignment determines the handling of consultations; an unassigned consultation enters the shared doctor queue.
+- Healthcare staff use consultations and photographs to communicate with patients and can generate patient reports. Authorised exports can include PDF, Word and Excel files. Files saved or shared outside the application are handled separately by their recipients and are not automatically recalled by deleting an app account.
+- Project administrators and technical support may access information when necessary to administer the service, address support requests and investigate problems.
+- Google Firebase and Google Cloud process information to provide authentication, storage, notifications, server operations and diagnostics.
 
-- **Вы** — все свои данные.
-- **Врачи, зарегистрированные в приложении.** Врач может просматривать профиль, планы приёма и статистику, дневник и опросники пациентов, а также переписку, в которой он участвует. В текущей версии любой врач может открыть карточку любого пациента; закрепление пациента за врачом определяет, кто отвечает на обращения.
-- **Администраторы** проекта — для поддержки пользователей и обслуживания системы.
-- **Поставщики инфраструктуры** (раздел 6) — только в объёме, необходимом для хранения и доставки данных. Они не используют ваши данные в собственных целях, кроме случаев, описанных в их политиках.
+The application does not make patient records publicly searchable. Please protect your account and review which information you send in messages and attachments.
 
-Мы не продаём и не передаём данные третьим лицам для рекламы или маркетинга.
+## 5. Firebase services and processing locations
 
-## 5. Что хранится на вашем телефоне
+The application uses Firebase Authentication, Cloud Firestore, Cloud Storage for Firebase, Realtime Database, Cloud Functions, Firebase Cloud Messaging and Firebase Crashlytics.
 
-Планы приёма, журнал приёмов, записи дневника, опросники и служебный журнал событий хранятся на телефоне в защищённой области приложения и синхронизируются с сервером, когда есть интернет. Резервное копирование Android может сохранять данные приложения в вашем аккаунте Google, если вы включили эту функцию в настройках телефона.
+The project uses Europe (eur3) for its primary Firestore database, US-EAST1 for consultation photographs, us-central1 for Realtime Database and europe-west1 for its server functions. Firebase Authentication operates from the United States. Other Firebase services use Google's infrastructure and may process information in additional countries. Information can therefore be stored and processed outside Russia; selecting a storage region does not mean that every related service operates only in that region.
 
-Приложению нужны разрешения: уведомления; точные будильники (чтобы напоминание о приёме пришло вовремя); отключение оптимизации батареи (чтобы телефон не останавливал напоминания); интернет. Камера для фото в чате используется через системное приложение камеры.
+For the provider's service-specific handling information, see [Privacy and Security in Firebase](https://firebase.google.com/support/privacy) and the [Google Privacy Policy](https://policies.google.com/privacy).
 
-## 6. Где хранятся данные и кто их обрабатывает
+## 6. Data on your phone and Android backup
 
-Приложение использует сервис **Google Firebase** (Google LLC / Google Ireland Limited):
+Medication records, diary entries, questionnaire responses and some settings are stored in the application's private storage. Records synchronise with Firebase when a connection is available. Local offline records can include changes that have not yet reached the server.
 
-| Сервис | Что хранит | Расположение |
-|---|---|---|
-| Firebase Authentication | Email, идентификатор, хэш пароля | серверы Google |
-| Cloud Firestore | Профиль, планы, приёмы, дневник, опросники, консультации, новости | мультирегион **Европа (eur3)** |
-| Cloud Storage | Фотографии из консультаций | регион **США (US-EAST1)** |
-| Realtime Database | Токены устройств и время последней связи | регион **США (us-central1)** |
-| Cloud Functions | Отправка уведомлений | **Европа (europe-west1)** |
-| Firebase Cloud Messaging | Доставка push-уведомлений | серверы Google |
-| Firebase Crashlytics | Отчёты о сбоях | серверы Google |
+For the version covered by this draft, Android cloud backup and direct phone-to-phone transfer are configured to include only the selected appearance theme. The local database, login state, technical files and installation-related settings are excluded. On a new installation, sign in and download synchronised records again. Changes not sent to Firebase before the application is removed or the phone is lost cannot be recovered through this process. These settings do not remove older Android backups made by previous versions.
 
-Данные передаются по защищённому каналу (HTTPS/TLS) и хранятся у Google в зашифрованном виде.
+Notifications and exact-alarm access support medication reminders. Android settings control the permissions you grant. Refusing notification permission can prevent reminders from appearing; it does not delete your existing records.
 
-**Передача данных за пределы Российской Федерации.** Серверы Google находятся в Европе и США. Используя приложение, вы соглашаетесь на такую передачу.
+## 7. Retention
 
-## 7. Как долго мы храним данные
+Account information and patient records are retained while the account is in use, unless you request deletion or the controller is required to handle particular information differently. If a specific retention requirement applies to information held outside the application as part of medical care, the controller must explain it separately; this policy does not establish a blanket exemption from deleting app data.
 
-Данные хранятся, пока существует ваш аккаунт. После удаления аккаунта (раздел 8) мы удаляем ваши данные из приложения и с сервера: профиль, планы и историю приёмов, дневник, опросники, переписку и фотографии, токены устройств и учётную запись. Резервные копии у поставщика инфраструктуры и журналы сбоев в обезличенном виде могут сохраняться до очередного цикла их удаления.
+**Agreed rule for processed notification requests:** delete or irreversibly de-identify them 30 days after processing. This rule applies to processed requests, not unprocessed requests awaiting delivery or investigation. The automatic cleanup implementing this rule has not yet been added; it must be implemented before this draft is published as an effective policy.
 
-## 8. Ваши права и удаление данных
+Notification-delivery records and server logs can contain account/recipient identifiers, timestamps, notification text and results. The current account deletion function does not automatically clear all of those records. The controller's retention periods and deletion process for server logs and support correspondence must be finalised before publication; we do not describe these records as anonymous or as already erased.
 
-Вы вправе: получить информацию о ваших данных; потребовать исправить или удалить их; отозвать согласие на обработку; ограничить обработку; обратиться с жалобой в Роскомнадзор.
+Firebase Crashlytics retains crash reports and associated identifiers for 90 days before beginning removal from live and backup systems, according to the provider's published information. Deleting an application account does not by itself guarantee immediate deletion of every provider diagnostic record.
 
-**Как удалить аккаунт и данные**
-- В приложении: *«Профиль» → «Удалить аккаунт и все данные»*, подтверждение паролем. Для пациентов. Аккаунты врачей и администраторов удаляются по запросу на email ниже.
-- По запросу: напишите на **support_mobatherapy@mail.ru** с адреса, указанного при регистрации, с темой «Удаление аккаунта». Мы удалим аккаунт и данные и подтвердим это письмом в течение 30 дней.
-- Эта страница служит и страницей запроса удаления данных: достаточно письма на указанный адрес.
+## 8. Delete your account and request deletion of information
 
-Чтобы отозвать согласие, напишите на тот же адрес. Отзыв согласия означает, что пользоваться приложением дальше нельзя, а данные будут удалены.
+You can start the patient account deletion process in **Profile → Delete account and all data** and confirm with your password. The server process removes the patient profile and its stored records, consultation messages and photographs, notification/device-status entries covered by that process, and the authentication account. Local records on the phone are cleared after the server reports success.
 
-## 9. Безопасность
+Doctor and administrator accounts use the email request route. You can also use email if you no longer have the application, cannot sign in, or cannot complete deletion in the application.
 
-Мы применяем разумные меры защиты: доступ только после входа в аккаунт, правила доступа к данным на сервере (пациент видит только свои данные, врачи — в рамках раздела 4), шифрование при передаче. Ни один способ передачи и хранения данных не гарантирует абсолютной безопасности. Берегите пароль и не передавайте его другим людям.
+Send a request to [mobatherapy@mail.ru](mailto:mobatherapy@mail.ru) with the subject **MobAtherapy 2.0 — account deletion**. Send it from your registered email when possible and identify the account to be deleted. If you cannot access that mailbox, explain the situation so that account ownership can be checked. Do not send your password or unnecessary medical documents.
 
-## 10. Дети
+Email deletion requests are handled within **30 days**. We will tell you if additional information is necessary to verify ownership and confirm the result. Requests concerning remaining service records or exported medical records must identify the information concerned; the controller will explain the scope of deletion and any applicable retention requirement.
 
-Приложение предназначено для лиц **старше 18 лет**. Мы сознательно не собираем данные детей. Если вам стало известно, что несовершеннолетний создал аккаунт, напишите нам — мы удалим данные.
+Deleting the application from your phone does not delete the server account. If deletion fails, you can retry or contact support; an error does not establish that no server data changed. **[Open the account deletion instructions](delete-account.html).**
 
-## 11. Ссылки на сторонние сайты
+## 9. Other requests and consent withdrawal
 
-Приложение может содержать ссылки на сторонние сайты (например, отправку письма или звонок на номер скорой помощи 103 через телефон). Мы не отвечаем за их содержание и политику конфиденциальности.
+Contact us to request access to your information, corrections, deletion, or an explanation of its use. For withdrawal of the separate consent, follow the procedure in that document or contact us for assistance. Withdrawal can affect functions that require processing your information; the controller will explain the consequences and any information that must be retained.
 
-## 12. Изменения политики
+## 10. Security
 
-Мы можем обновлять политику. Новая версия публикуется на этой странице с новой датой вступления в силу; о существенных изменениях мы сообщим в приложении.
+The application uses account authentication, private application storage and encrypted network connections. Access controls and administrative procedures are intended to restrict information to permitted uses. We cannot guarantee absolute security. Protect your password and phone, and do not include passwords in consultation messages or support requests.
 
-## 13. Контакты
+## 11. Intended audience
 
-По любым вопросам о данных: **support_mobatherapy@mail.ru**.
-Оператор: Алексей Алыков, г. Томск.
+The application is intended for adult patients and healthcare professionals, not children. If you believe that a child has supplied information through the application, contact us so that the controller can review the situation and take appropriate action.
+
+## 12. Updates and contact
+
+The published policy will identify its version and effective date. Material changes will be communicated through the application or the registered contact details when appropriate. The separate consent has its own version; changing this policy does not record acceptance of a different consent document.
+
+**Controller:** Cardiology Research Institute, Tomsk NRMC. **Developer:** Alexey Alykov. **Contact:** [mobatherapy@mail.ru](mailto:mobatherapy@mail.ru).
